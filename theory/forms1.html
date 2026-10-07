@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<form method="post">
+    <fieldset>
+        <legend>Ragistration Form</legend>
+        <table>
+            <tr>
+                <td><label for="name">Name: "</label></td>
+                <td><input type="text" id="name" placeholder="Enter your name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" placeholder="Enter your email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password:</label></td>
+                <td><input type="pass" id="pass" placeholder="Enter your password" name="pass" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="skills">Skills:</label></td>
+                <td>
+                    <input type="checkbox" name="skills" value="html">HTML
+                    <input type="checkbox" name="skills" value="js">JavaScript
+                    <input type="checkbox" name="skills" value="php">PHP
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Country:</label></td>
+                <td>
+                    <select id="country" name="country">
+                        <option>Select a country</option>
+                        <option>BD</option>
+                        <option>Usa</option>
+                        <option>uk</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="msg">Enter Message:</label></td>
+                <td><textarea id="msg" row="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Register">
+                    <input type="reset">
+                </td>
+            </tr>
+
+
+        </table>
+    </fieldset>
+</form>
+
+</html>
